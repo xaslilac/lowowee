@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eceeee;
+}
+
+#react-app-root {
+  padding: 0;
+}
+
+.task-list {
+  padding: 0.1in 0 0 0;
+}
+
+.move-left {
+  padding-right: 12px;
+}
+
+.move-right {
+  float: right;
+}
+
+.move-left, .move-right {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.add-task {
+  cursor: pointer;
+}

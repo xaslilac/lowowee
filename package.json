@@ -1,0 +1,24 @@
+{
+  "name": "lowowee",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "public/index.html",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "parcel": "^2.0.0-alpha.3.2",
+    "sass": "^1.26.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "build": "parcel build client/index.html",
+    "dev": "parcel client/index.html"
+  }
+}
